@@ -31,12 +31,3 @@ py.test test/test_ios_selectors.py
 - test/test_android_create_session.py
 - test/test_ios_create_session.py
 
-### pytest based
-- Rest of the above
-
-# Tutorial
-
-
-
-
-[Software automation with Appium and Python - By Maria Clara Bezerra (Github)](https://github.com/clarabez/appium-en)
