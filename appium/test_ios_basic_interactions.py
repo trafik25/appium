@@ -1,9 +1,8 @@
 import pytest
-import os
 import copy
 
 from appium import webdriver
-from helpers import report_to_sauce, take_screenshot_and_syslog, IOS_BASE_CAPS, EXECUTOR
+from appium.helpers import report_to_sauce, take_screenshot_and_syslog, IOS_BASE_CAPS, EXECUTOR
 
 
 class TestIOSBasicInteractions():

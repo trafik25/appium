@@ -1,12 +1,10 @@
 import unittest
-import os
 import copy
-import sys
 
 from time import sleep
 
 from appium import webdriver
-from helpers import report_to_sauce, ANDROID_BASE_CAPS, EXECUTOR
+from appium.helpers import report_to_sauce, ANDROID_BASE_CAPS, EXECUTOR
 from selenium.common.exceptions import WebDriverException
 
 # Run standard unittest base.

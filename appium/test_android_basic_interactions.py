@@ -1,10 +1,9 @@
 import pytest
-import os
 import textwrap
 import copy
 
 from appium import webdriver
-from helpers import report_to_sauce, take_screenshot_and_logcat, ANDROID_BASE_CAPS, EXECUTOR
+from appium.helpers import report_to_sauce, take_screenshot_and_logcat, ANDROID_BASE_CAPS, EXECUTOR
 
 
 class TestAndroidBasicInteractions():
